@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: my_package
+Version: 0.25.1
+Summary: A small package that creates a mapping from SIC codes to Fama-French industries.
+Home-page: https://github.com/stoffprof/ff_industries
+Author: Noah Stoffman
+Author-email: nstoffma@iu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# Fama-French industry SIC code mapping
+
+Python code to read the industry definitions files from Ken French's  [Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) and return a dictionary that maps from SIC code to Fama-French industry code.

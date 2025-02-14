@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="my_package",
+    name="ff_industries",
     version="0.25.1",
     packages=find_packages(),
     install_requires=[
